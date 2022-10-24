@@ -27,29 +27,13 @@ namespace IterationStatements
             {
                 var equall = equal(number, number2);
                 Console.WriteLine(equall);
-
-
             }
 
             EvenOrOdd();
 
             NegativeOrPositive();
             Voting();
-            {
-
-                
-
-
-
-
-
-
-
-
-            }
-
-
-            static void NegativeOrPositive()
+              static void NegativeOrPositive()
             {
                 Console.WriteLine("Please enter a number and I will determine if you are negative or positive");
                 var userinput = Console.ReadLine();
@@ -61,21 +45,12 @@ namespace IterationStatements
                     if (test <= 0)
                     {
                         Console.WriteLine("It is negative");
-
-
                     }
                     else
                     {
-
                         Console.WriteLine("It is postive");
-
                     }
-
-
                 }
-
-
-
             }
 
             //Create a method which will print all the console numbers from 1000 to -1000
@@ -84,10 +59,6 @@ namespace IterationStatements
                 for (int x = 1000; x >= -1000; x--)
 
                     Console.WriteLine(x);
-
-
-
-
             }
 
             static void threes()
@@ -99,19 +70,8 @@ namespace IterationStatements
 
                     x += 3;
 
-
-
-
-
-
-
-
                 } while (x <= 999);
-
-
-            }
-
-
+             }
             static string equal(int input1, int input2)
             {
                 if (input1 == input2)
@@ -119,19 +79,10 @@ namespace IterationStatements
                     return "They are equal";
 
                 }
-
-
                 else
                 {
                     return "THey are not equal";
-
-                }
-
-
-
-
-
-
+                 }
             }
 
             static void EvenOrOdd()
@@ -149,23 +100,15 @@ namespace IterationStatements
                     if (go % 2 == 0)
                     {
                         Console.WriteLine("It is even"); ;
-
-
-                    }
+                     }
 
                     else
                     {
-
                         Console.WriteLine("Its Odd");
-
-
-
-                    }
+                     }
                 }
             }
-
-
-
+            
             static void Voting()
             {
                 Console.WriteLine("Please enter your age to determine if you can vote");
@@ -181,31 +124,13 @@ namespace IterationStatements
                     if (ageTest > 18)
                     {
                         Console.WriteLine("You are old enough to vote");
-
-                    }
-
+                     }
                     else
                     {
-
                         Console.WriteLine("You are too young");
-
                     }
-
-
-
-
-                }
-
-
-
-
-
-
+                 }
             }
-
-
-
-
         }
     }
 }
